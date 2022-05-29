@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="input.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="body">
+<main class="component">
+  <div class="container container--darkblue">
+    <div class="container__star">
+      <img src="/images/icon-star.svg" alt="star" class="container__star__image">
+    </div>
+      <h1 class="container__head--white">How did we do?</h1>
+      <p class="container__text--gray">   Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+         <div class="container__rateflex">
+           <button  id="button1" class="container__ratebuttons container__ratebuttons--gray" value="1">1</button>
+           <button  id="button2" class="container__ratebuttons container__ratebuttons--gray" value="2">2</button>
+           <button  id="button3" class="container__ratebuttons container__ratebuttons--gray" value="3">3</button>
+           <button  id="button4" class="container__ratebuttons container__ratebuttons--gray" value="4">4</button>
+           <button  id="button5" class="container__ratebuttons container__ratebuttons--gray" value="5">5</button>         
+         </div>
+         <input onclick="submitFunc();" id="input" type="button" class="container__submitbutton container__submitbutton--orange" value="submit">
+         
+        </div>
+        <div id="card2" class="container2">   
+          <div class="container2__component">
+              <img class="container2__image" src="./images/illustration-thank-you.svg" alt="">
+              <div class="container2__background">
+              <div id="select" class="container2__select container2__select--orange"></div>
+            </div>
+              <h1 class="container2__head container2__head--white">Thank you!</h1>      
+              <p class="container2__text container2__text--gray">We appreciate you taking the time to give a rating. If you ever need more support, 
+                don’t hesitate to get in touch!</p>
+            </div>
+          </div>
+</main>
+  </div>
+    <script src="app.js"></script>
+</body>
+</html>
