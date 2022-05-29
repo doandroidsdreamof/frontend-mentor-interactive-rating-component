@@ -20,7 +20,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/ss.png)
+
+![image](ss.png)
 
 ### Built with
 
